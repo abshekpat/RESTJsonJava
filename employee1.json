@@ -1,0 +1,17 @@
+{
+    "users" : [{
+      "id" : "user.id",
+      "operations" : [{
+        "op" : "replace",
+        "field" : "state",
+        "value" : {
+          "current" : "ACTIVE",
+          "prev": "ADDED",
+          "timestamp" :123
+        }
+      }]
+    }],
+    "scope": {
+      "company": "cname"
+   }
+ }
